@@ -34,11 +34,11 @@ The code uses interpolated variables stored in "magma_properties.mat" to calcula
 
 
 Installation Guide:
-This code runs on MATLAB 2020a. User need to have a valid MATLAB license and follow MATLAB installation guide. 
+This code runs on MATLAB 2020a. The user needs to have a valid MATLAB license and to follow MATLAB installation guide. 
 
 License: 
 This code is under MIT license. 
 https://opensource.org/licenses/MIT
 
 Example:
-Sample_Run.m provides an example of running the code.
+Sample_Run.m provides an example how to run the code.

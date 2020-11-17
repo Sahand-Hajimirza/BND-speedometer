@@ -20,7 +20,7 @@ Input = table(MDR,P_H2O,T,MDR,crys,theta,R_conduit);
 %============================================================
 
 
-[output] = BND_sim(Input); 
+[output] = BND_speedometer(Input); 
 
 disp('%===================================')
 disp('Final bubble number density (m^-3):')

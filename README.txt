@@ -1,9 +1,8 @@
-**** BND_speedometer ****
+**** BND-speedometer ****
 
-Description:
-This is a MATLAB code that estimates bubble nucleation during Plinian silicic eruptions. 
+BND-speedometer estimates bubble number density in Plinian explosive eruptions as a function of averaged decompression rate. For details on equations that are solved see Hajimirza et al 2020 (https://eartharxiv.org/repository/view/180/).
 
-The Input variable is a table that contains the following parameter:
+The Input variable is a table that contains the following parameters:
 1- Water saturation pressure in MPa. The acceptable range is 50-300
 2- Temperature in C. The acceptable range is 700-1100.
 3- Crystal content for viscosity. The acceptable range is 0-1.
@@ -28,7 +27,7 @@ The code uses interpolated variables stored in "magma_properties.mat" to calcula
 4- Viscosity of rhyolite temperature and water concentration (Hui, H., & Zhang, Y. (2007) Geochimica et Cosmochimica Acta).
 
 
-*** To find a decompression rate for a given set of input parameters user can vary conduit radius to achieve the desired final bubble number density. ***
+*** To find the time-averaged decompression rate for a given set of input parameters the user can vary conduit radius to achieve the desired final bubble number density. ***
 
 
 

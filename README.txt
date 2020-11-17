@@ -1,4 +1,4 @@
-**** BND_sim ****
+**** BND_speedometer ****
 
 Description:
 This is a MATLAB code that estimates bubble nucleation during Plinian silicic eruptions. 
